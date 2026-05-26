@@ -5,24 +5,6 @@ This repository contains code for LCP-LR, including:
 - Fine-tuning LLMs (Qwen2.5-7B, Llama3-Chinese-8B)
 - API-based evaluation (GPT-4o-mini, Qwen-Max)
 
-
-# Repository Structure
-├── README.md
-├── requirements.txt
-├── .gitignore
-├── data/
-│ ├── README.md
-│ └── sample.jsonl
-├── train.py # XLNet baseline
-├── train_adversarial.py # DPAL (proposed method)
-├── ablation_unified.py # Ablation studies
-├── llm_finetune/
-│ ├── finetune_llm.py # LLM fine-tuning (Qwen/Llama3)
-│ └── eval_llm.py # LLM evaluation
-└── llm_api/
-└── eval_api.py # API-based evaluation (GPT-4o/Qwen-Max)
-
-
 ## Usage
 
 ```bash

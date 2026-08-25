@@ -7,7 +7,8 @@ This repository contains the official implementation and the LCP-LR benchmark da
 
 **"Beyond Over-Simplification and Over-Personalization: Lexical Complexity Prediction for Leveled Reading"**
 
-> Lexical Complexity Prediction (LCP) in real-world scenarios, particularly in language education, is often limited by the trade-off between overly simplified general models and unscalable personalized ones. To address this, we introduce **LCP-LR**, a task that operationalizes group-level personalization by identifying complex words relative to specific proficiency levels. We construct the first large-scale benchmark dataset (**100,917** instance annotations across **1,401** leveled texts) and propose **DPAL** (Dual-Prior Adversarial Learning), which incorporates word- and text-level difficulty priors with adversarial debiasing. Our framework significantly outperforms baselines including XLNet and LLMs, achieving **77.81%** Macro F1.
+> Lexical Complexity Prediction (LCP) in real-world scenarios, particularly in language education, is often limited by the trade-off between overly simplified general models and unscalable personalized ones. To address this, we introduce **LCP-LR**, a task that operationalizes group-level personalization by identifying complex words relative to specific proficiency levels. We construct the first large-scale benchmark dataset (**100,917** instance annotations across **1,401** leveled texts) and propose **DPAL** (Dual-Prior Adversarial Learning), which incorporates word- and text-level difficulty priors with adversarial debiasing. Our framework significantly outperforms baselines including PLMs and LLMs, achieving **77.81%** Macro F1.
+> 
 
 ## Citation
 
@@ -16,7 +17,7 @@ If you use this code or data in your research, please cite:
 ```bibtex
 @inproceedings{xu2026lexical,
   title={Beyond Over-Simplification and Over-Personalization: Lexical Complexity Prediction for Leveled Reading},
-  author={Xu, Huidan and [Add Full Author Names]},
+  author={Huidan Xu and Ying Liu },
   booktitle={Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing (EMNLP)},
   year={2026}
 }
